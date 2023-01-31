@@ -1,11 +1,11 @@
 package app;
 
-public class pair<T, U> {
+public class Pair<T, U> {
 
     private T first;
     private U second;
 
-    public pair(T first, U second){
+    public Pair(T first, U second){
         this.first = first;
         this.second = second;
     }
